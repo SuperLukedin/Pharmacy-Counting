@@ -1,13 +1,14 @@
 import java.util.HashSet;
 import java.util.Set;
-
+/*
+Each Drug Object stores prescribers into HashSet, so that guarantees the the uniqueness of prescriber.
+*/
 public class Drug {
 	String drugName;
 	Set<String> prescribers;
 	double totalCost;
 	
 	public Drug(String drugName, double totalCost) {
-		super();
 		this.drugName = drugName;
 		this.prescribers = new HashSet<>();
 		this.totalCost = totalCost;

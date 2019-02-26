@@ -2,10 +2,16 @@ import java.io.*;
 import java.util.List;
 public class Pharmacy_Counting {
 
-	public static void main(String[] args) {
-        BufferedReader reader;
+	public static void main(String[] args) {      
+        /*
+	The file are read in a while loop by BufferedReader.
+	Each line will be tokenized in Process_Line class.
+	After all contents of the file are processed and stored in to 
+	Drug Objects, "top_cost_drug.txt" will be written by PrintWriter 
+	line by line in an order as they are in the ArrayList. 
+	*/
+	BufferedReader reader;
         PrintWriter writer;
-        
         try {
             File file = new File("../input/itcont.txt");
             reader = new BufferedReader(new FileReader(file));

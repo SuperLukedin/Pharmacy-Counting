@@ -12,6 +12,7 @@ itcont.txt - text file with pharmacy prescriber information.
 
 ## Code
 * Programming Language: Java 1.8
+* HashMap, HashSet and Comparator were used in this project.
 * Drug.java - The class that saves drug name, number of prescribers and total drug cost
 * Process_Line.java - This class behaves like data ingestor which mainly fetches the field of interest in each record and stores the data.
 * Pharmacy_Counting - Main class, initializes objects, defines input/output directories and loads contents into "Process Line".
