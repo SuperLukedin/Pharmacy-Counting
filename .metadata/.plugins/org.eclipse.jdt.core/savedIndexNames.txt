@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+/home/yuchen/Documents/pharmacy_counting/.metadata/.plugins/org.eclipse.jdt.core
